@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Birungi | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Moving Background Animation Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand"><span>&lt;</span>Biru<span>/&gt;</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Tech Stack</a></li>
+            <li><a href="#projects">Projects & Certs</a></li>
+            <li><a href="#contact" class="nav-btn">Let's Connect</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span> Aspiring Cloud Architect & Developer
+            </div>
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Faith Birungi</span></h1>
+            <div class="typewriter-container" id="typewriter"></div>
+            <p class="hero-bio">Living between pixels and reality. Just trying, building, and figuring it out one line of code at a time.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary-btn">Explore Work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-terminal">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="terminal-title">biru.js</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="keyword">const</span> developer = {</p>
+                <p class="indent"><span class="property">name</span>: <span class="string">"Faith Birungi"</span>,</p>
+                <p class="indent"><span class="property">pathway</span>: <span class="string">"Cloud Architecture & AI"</span>,</p>
+                <p class="indent"><span class="property">stack</span>: [<span class="string">"Python"</span>, <span class="string">"Django"</span>, <span class="string">"Node.js"</span>, <span class="string">"Networking"</span>],</p>
+                <p class="indent"><span class="property">philosophy</span>: <span class="string">"Living between pixels & reality"</span></p>                <p class="indent"><span class="property">philosophy</span>: <span class="string">"Living between pixels & reality"</span></p>
+                <p class="indent"><span class="property">contact</span>: <span class="string">"faithbirungi90@gmail.com"</span></p>
+                <p>};</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title"><span>01.</span> About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I am an IT undergraduate student at KCA University with a sharp focus on <strong>Cloud Architecture & Cybersecurity, AI, and System Development</strong>.</p>
+                <p>From full-stack development and data tracking applications to interactive web redesigns at UTU Cars Africa, I combine analytical problem-solving with continuous learning across cybersecurity and machine learning.</p>
+            </div>
+            <div class="stats-card">
+                <div class="stat-item">
+                    <h3>KCA University</h3>
+                    <p>BSc. Information Technology (2023 - 2026)</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Specializations</h3>
+                    <p>AI&ML, Cybersecurity & Cloud Architecture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title"><span>02.</span> Tech Stack & Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python & Django</span></div>
+            <div class="skill-card"><i class="fa-brands fa-react"></i><span>React & Front-End</span></div>
+            <div class="skill-card"><i class="fa-solid fa-shield-halved"></i><span>Cybersecurity & ML</span></div>
+            <div class="skill-card"><i class="fa-solid fa-cloud"></i><span>AI & Cloud</span></div>
+            <div class="skill-card"><i class="fa-solid fa-chart-bar"></i><span>Data Analysis & SPSS</span></div>
+            <div class="skill-card"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+        </div>
+    </section>
+
+    <!-- Projects & Certifications Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title"><span>03.</span> Projects & Certifications</h2>
+        
+        <h3 class="subsection-subtitle"><i class="fa-solid fa-laptop-code"></i> Featured Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-top"><i class="fa-regular fa-folder-open folder-icon"></i></div>
+                <h3>Internova Tracker</h3>
+                <span class="project-badge">School Project</span>
+                <p>A Single Page Application (SPA) school project developed to help students manage internships digitally, connecting students, supervisors, and administrators.</p>
+                <div class="project-tech"><span>React.js</span><span>Tailwind CSS</span><span>Firebase</span></div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fa-regular fa-folder-open folder-icon"></i></div>
+                <h3>UTU Cars Website Redesign</h3>
+                <span class="project-badge">Work Attachment</span>
+                <p>Enhanced interactivity with smooth animations, video integration, hovering effects, and modern layouts for UTU Cars Africa.</p>
+                <div class="project-tech"><span>Web Design</span><span>UI/UX</span><span>Animations</span></div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fa-regular fa-folder-open folder-icon"></i></div>
+                <h3>UTU Trucks Site</h3>
+                <span class="project-badge">Live Deployment</span>
+                <p>A dedicated product showcase website highlighting the best of UTU electric trucks and vehicle line specifications.</p>
+                <div class="project-tech"><span>HTML/CSS/JS</span><span>Deployment</span><span>UI Design</span></div>
+                <div class="project-link-wrap">
+                    <a href="https://utu-trucks-site.onrender.com/" target="_blank" class="project-external-link">Visit Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="subsection-subtitle" style="margin-top: 4rem;"><i class="fa-solid fa-certificate"></i> Certifications & Training</h3>
+        <div class="certs-grid">
+            <div class="cert-card">
+                <i class="fa-solid fa-award cert-icon"></i>
+                <h4>Machine Learning & Cybersecurity Certificate</h4>
+                <p>Ongoing certification program at KiTi Admin for UoN.</p>
+            </div>
+            <div class="cert-card">
+                <i class="fa-solid fa-award cert-icon"></i>
+                <h4>AI & Cloud Practitioner Course</h4>
+                <p>Foundation level training testing key AI and cloud concepts.</p>
+            </div>
+            <div class="cert-card">
+                <i class="fa-solid fa-award cert-icon"></i>
+                <h4>Data Analysis, IBM & SPSS Course</h4>
+                <p>Completed professional data analysis training for KEPSA at KCA University.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="contact-box">
+            <h2>Let's Build Something Together</h2>
+            <p>Got a project or cloud initiative in mind? Reach out directly via email or connect on LinkedIn!</p>
+            
+            <div class="contact-buttons">
+                <a href="mailto:faithbirungi90@gmail.com" class="btn primary-btn">
+                    <i class="fa-regular fa-paper-plane"></i> Say Hello (Email)
+                </a>
+                <a href="https://www.linkedin.com/in/faith-birungi-profile" target="_blank" class="btn secondary-btn">
+                    <i class="fa-brands fa-linkedin-in"></i> LinkedIn Profile
+                </a>
+            </div>
+
+            <!-- Interactive Code Playground Widget -->
+            <div class="playground-container">
+                <div class="playground-header">
+                    <span><i class="fa-solid fa-terminal"></i> Interactive Code Sandbox (Try typing here!)</span>
+                </div>
+                <textarea id="code-input" placeholder="Type custom HTML/JS here to test...">&lt;h3 style="color: #38bdf8;"&gt;Hello from the sandbox! 👋&lt;/h3&gt;</textarea>
+                <div class="playground-output-label">Live Output Preview:</div>
+                <div id="code-output"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed & Built by Faith Birungi (Biru) ✦ Living between pixels and reality.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
